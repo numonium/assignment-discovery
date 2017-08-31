@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-api-client": "^2.1.0",
     "node-sass-chokidar": "0.0.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^5.0.0-alpha.6",
     "react-scripts": "1.0.12",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
     "ytsearch": "^1.0.4"
   },
   "scripts": {
@@ -17,6 +23,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }

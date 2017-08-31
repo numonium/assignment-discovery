@@ -1,5 +1,12 @@
 {
 	"API" : {
+		"youtube" : {
+			"key" : "AIzaSyC3lOQyNyz7IVie2r4OW75z-YSswPwf19A",
+			"oauth" : {
+				"client_id" : "517586374429-5rv2tcc72ea7ahcrpqg7s80ig87ljhk8.apps.googleusercontent.com",
+				"client_secret" : "rqVRcub_dYU91C9POcZsV2gX"
+			}
+		},
 		"flickr" : {
 		    "key" : "ec9df3f7fdfc52b741a70e44d5894309",
 	    	"secret" : "a8361b9ed1fe2687",
