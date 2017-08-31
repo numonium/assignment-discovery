@@ -1,0 +1,12 @@
+{
+	"API" : {
+		"flickr" : {
+		    "key" : "ec9df3f7fdfc52b741a70e44d5894309",
+	    	"secret" : "a8361b9ed1fe2687",
+		    "url" : {
+		      "img" : "https://farm###PHOTO_FARM###.staticflickr.com/###PHOTO_SERVER###/###PHOTO_ID###_###PHOTO_SECRET###.jpg",
+		      "q" : "https://api.flickr.com/services/rest/?api_key=###API_KEY###&method=flickr.photos.search&format=json&nojsoncallback=1&&per_page=50&page=1&text=###Q###"
+		    }
+		}
+	}
+}
