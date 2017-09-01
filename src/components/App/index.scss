@@ -1,11 +1,28 @@
+$brand-link: #5FB1E2;
 $brand-footer: #111;
+$brand-media-wide: 1280px;
+$brand-media-desktop: 780px;
+$brand-media-mobile: 480px;
+$brand-media-tiny: 320px;
+
+$grid-cells-width: 18%;
+$grid-cells-margin: 1%;
 
 *{
   outline: none !important;
 }
 
-body{
+a {
+  color:$brand-link;
+}
 
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+h2, h3{
+  font-weight:300;
 }
 
 .App {
@@ -21,11 +38,42 @@ body{
   padding: 1%;
   color: #222;
   box-sizing: border-box;
+
+  @media(max-width: $brand-media-desktop){
+    display:block;
+  }
 }
 
 .App--header--logo {
   /*animation: App-logo-spin infinite 20s linear;*/
   height: 80px;
+  margin:0 auto;
+
+}
+
+.App--content {
+
+  .content--wrapper{
+    display:flex;
+    width:100%;
+    flex-wrap: wrap;
+
+    @media(max-width: $brand-media-desktop){
+      display:block;
+    }
+  }
+
+  .content--preview{
+    display:block;
+    width: $grid-cells-width;
+    margin: $grid-cells-margin;
+    vertical-align: middle;
+
+    @media(max-width: $brand-media-desktop){
+      width: 100%;
+      margin: 1% 0;
+    }
+  }
 }
 
 .App--footer {
@@ -45,6 +93,7 @@ body{
   height:100%;
   vertical-align: middle;
   color:#fafafa;
+  font-size: .75em;
   border-top: double 3px;
 }
 

@@ -1,10 +1,18 @@
 {
 	"API" : {
 		"youtube" : {
+			"featured" : {
+				"videoId" : "_ex4pNZRHeI"
+			},
 			"key" : "AIzaSyC3lOQyNyz7IVie2r4OW75z-YSswPwf19A",
 			"oauth" : {
 				"client_id" : "517586374429-5rv2tcc72ea7ahcrpqg7s80ig87ljhk8.apps.googleusercontent.com",
-				"client_secret" : "rqVRcub_dYU91C9POcZsV2gX"
+				"client_secret" : "rqVRcub_dYU91C9POcZsV2gX",
+				"scopes" : ["https://www.googleapis.com/auth/youtube"]
+			},
+			"url" : {
+				"img": "https://i.ytimg.com/vi/###VIDEO_ID###/###QUALITY###default.jpg",
+				"q" : "https://www.googleapis.com/youtube/v3/search?maxResults=###MAX_REDULTS###&part=###PART###&q=###Q$$$&key=###API_KEY###"
 			}
 		},
 		"flickr" : {

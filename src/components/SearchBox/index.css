@@ -1,55 +1,55 @@
 .SearchBox {
-  text-align: center;
-}
+  text-align: center; }
+  @media (max-width: 780px) {
+    .SearchBox {
+      display: flex;
+      flex: auto; } }
 
 .SearchBox input[type="text"],
-.SearchBox button{
-  display:inline-block;
-  padding:1% .5em;
-  border:solid 1px;
+.SearchBox button {
+  display: inline-block;
+  padding: 1% .5em;
+  border: solid 1px;
   background: #222;
-  color:#fafafa;
-  font-size:2em;
+  color: #fafafa;
+  font-size: 2em;
   font-weight: 300;
-  transition: all .25s ease-in-out;
-}
+  transition: all .25s ease-in-out; }
 
 .SearchBox input[type="text"]:hover,
-.SearchBox button:hover{
+.SearchBox button:hover {
   background: #000;
-  color:#fff;
-}
+  color: #fff; }
 
-.SearchBox input[type="text"]{
-  border-radius: 9px 0 0 9px;
-}
+.SearchBox input[type="text"] {
+  border-radius: 9px 0 0 9px; }
+  @media (max-width: 780px) {
+    .SearchBox input[type="text"] {
+      display: block;
+      width: 100%; } }
 
-.SearchBox button{
+.SearchBox button {
   border-radius: 0 9px 9px 0;
-  cursor: pointer;
-}
+  cursor: pointer; }
 
-.SearchBox button:hover{
-  background-color:#639;
-}
+.SearchBox button:hover {
+  background-color: #639; }
 
 .SearchBox--logo {
   /*animation: App-logo-spin infinite 20s linear;*/
-  height: 80px;
-}
+  height: 80px; }
 
 .SearchBox--header {
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
-}
+  color: white; }
 
 .SearchBox--intro {
-  font-size: large;
-}
+  font-size: large; }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }

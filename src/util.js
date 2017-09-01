@@ -2,7 +2,7 @@ export function getToken(token, wrap='###'){
   return wrap + token.toString().toUpperCase() + wrap;
 }
 
-export function getURL(index, tokens, api='flickr', wrap='###'){
+export function getURL(index, tokens, api='youtube', wrap='###'){
 
   let API = window.API;
 

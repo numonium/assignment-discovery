@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "google-api-client": "^2.1.0",
+    "google-client-api": "^1.0.4",
     "node-sass-chokidar": "0.0.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -11,7 +11,9 @@
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.6",
     "react-scripts": "1.0.12",
+    "react-youtube": "^7.4.0",
     "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
     "redux-thunk": "^2.2.0",
     "ytsearch": "^1.0.4"
   },

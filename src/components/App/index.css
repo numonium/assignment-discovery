@@ -1,6 +1,16 @@
 * {
   outline: none !important; }
 
+a {
+  color: #5FB1E2; }
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
+h2, h3 {
+  font-weight: 300; }
+
 .App {
   text-align: center; }
 
@@ -13,10 +23,32 @@
   padding: 1%;
   color: #222;
   box-sizing: border-box; }
+  @media (max-width: 780px) {
+    .App--header {
+      display: block; } }
 
 .App--header--logo {
   /*animation: App-logo-spin infinite 20s linear;*/
-  height: 80px; }
+  height: 80px;
+  margin: 0 auto; }
+
+.App--content .content--wrapper {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap; }
+  @media (max-width: 780px) {
+    .App--content .content--wrapper {
+      display: block; } }
+
+.App--content .content--preview {
+  display: block;
+  width: 18%;
+  margin: 1%;
+  vertical-align: middle; }
+  @media (max-width: 780px) {
+    .App--content .content--preview {
+      width: 100%;
+      margin: 1% 0; } }
 
 .App--footer {
   display: table;
@@ -34,6 +66,7 @@
   height: 100%;
   vertical-align: middle;
   color: #fafafa;
+  font-size: .75em;
   border-top: double 3px; }
 
 .App--footer--inner > * {

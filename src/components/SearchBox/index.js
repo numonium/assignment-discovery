@@ -63,7 +63,7 @@ class SearchBox extends Component {
     return (
       <div className="SearchBox">
           <input type="text" name="q" onKeyUp={ (e) => { this.handleChange(e); } } placeholder="Enter search query" />
-          <button onClick={ (e) => { this.handleSubmit(e); } }>»</button>
+          <button onClick={ (e) => { this.handleSubmit(e); } }>▶</button>
       </div>
     );
   }
