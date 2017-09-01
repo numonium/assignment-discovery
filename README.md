@@ -24,3 +24,4 @@ While I've done my best efforts to meet all the requirements, there are a few th
     - I could see this as an "either-or" but not both.
     - Wondering about other ways to implement an HOC on this "small" project
   - Better design and eye-candy :)
+  - Oh, and better unit tests!
