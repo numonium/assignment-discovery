@@ -13,7 +13,7 @@ While I've done my best efforts to meet all the requirements, there are a few th
   - Better video sizing based on viewport size + change
     - (right now, the video breaks @ `720px` and changes the player width to `100%` if lower, but not the height since aspect ratios may differ between videos)
   - *Lazy loading* on scroll
-    - basically we'd have to attach an event handler to the window's `scroll` event that would call `yt_search` and load more videos into `this.props.videos`
+    - basically we'd have to attach an event handler to the window's `scroll` event that would call `App.search() -> Redux/actions/yt_search()` and load more videos into `this.props.videos`
       - incrementing a counter each time is fired, maxes out at `3` lazy loads
   - Homepage
     - Query featured categories for random videos
@@ -24,4 +24,5 @@ While I've done my best efforts to meet all the requirements, there are a few th
     - I could see this as an "either-or" but not both.
     - Wondering about other ways to implement an HOC on this "small" project
   - Better design and eye-candy :)
+    - Combine "player" and "list" views for a more YouTube-like layout
   - Oh, and better unit tests!
