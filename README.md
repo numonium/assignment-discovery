@@ -2,9 +2,28 @@
 
 This is a "quick" (ha) assignment to make an HTML5 video player via YouTube APIs.
 
-While I've done my best efforts to meet all the requirements, there are a few things I'd like to get to if time allotted:
+### Installation
+
+Should be pretty simple -
+
+```
+git clone https://github.com/numonium/assignment-discovery.git
+cd ./assignment-discovery && npm install
+```
+
+To start -
+
+```npm start```
+
+* Listens on port `3000`
+
+For dev, you'll also need to set up the SCSS watcher (probably in a new tab/window) -
+
+```npm run watch-css```
 
 ### TODO / Wish-List:
+
+While I've done my best efforts to meet all the requirements, there are a few things I'd like to get to if time allotted:
 
 - Video Loading
   - Better video loading (with loaders, spinners, and stuff)
